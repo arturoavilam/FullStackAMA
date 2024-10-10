@@ -1,10 +1,4 @@
 ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-
 
     sequenceDiagram
     participant browser
@@ -32,5 +26,5 @@ graph TD;
     server-->>browser: [{ "content": "HTML is easy", "date": "2023-1-1" }, ... ]
     deactivate server
 
-    
+
 ```
