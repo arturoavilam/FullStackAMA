@@ -1,3 +1,7 @@
 ```mermaid
   info
+
+  Hola
+
+  :)
 ```
