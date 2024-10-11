@@ -1,6 +1,6 @@
 ```mermaid
 
-    sequenceDiagram
+  sequenceDiagram
     participant browser
     participant server
 
@@ -25,12 +25,6 @@
     activate server
     server-->>browser: [{"","date":"2024-10-10T16:05:47.305Z"}, ... ]
     deactivate server
-
-    browser->>server: GET /exampleapp/main.css HTTP/1.1
-    activate server
-    server-->>browser: HTTP/1.1 200 OK
-    deactivate server
-
 
 
 ```
