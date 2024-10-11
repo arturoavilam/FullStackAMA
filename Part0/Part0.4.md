@@ -23,8 +23,14 @@
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
-    server-->>browser: [{ "content": "HTML is easy", "date": "2023-1-1" }, ... ]
+    server-->>browser: [{"","date":"2024-10-10T16:05:47.305Z"}, ... ]
     deactivate server
+
+    browser->>server: GET /exampleapp/main.css HTTP/1.1
+    activate server
+    server-->>browser: HTTP/1.1 200 OK 
+    deactivate server
+
 
 
 ```
